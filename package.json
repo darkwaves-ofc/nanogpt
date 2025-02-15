@@ -1,0 +1,35 @@
+{
+  "name": "nanogpt",
+  "version": "1.0.0",
+  "description": "TypeScript client for NanoGPT API",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "production": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkwaves-ofc/nanogpt.git"
+  },
+  "homepage": "https://clodynix.noerror.studio",
+  "keywords": [
+    "nanogpt",
+    "api",
+    "client",
+    "typescript"
+  ],
+  "author": "darkwaves-ofc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkwaves-ofc/nanogpt/issues"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
