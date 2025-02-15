@@ -31,7 +31,7 @@ yarn add nanogpt
 
 ```javascript
 // Import the package
-import NanoGPT from 'nanogpt';
+import { NanoGPT } from "nanogpt";
 
 // Initialize with your API key
 const nanoGPT = NanoGPT({

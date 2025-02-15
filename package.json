@@ -1,6 +1,6 @@
 {
   "name": "nanogpt",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "TypeScript client for NanoGPT API",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
